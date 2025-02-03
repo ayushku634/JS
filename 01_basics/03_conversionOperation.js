@@ -35,3 +35,23 @@ let isL3 = "ayush"
 let isLn3 = Boolean(isL3)
 console.log(isLn3);
 
+// ****************************************** OPERATIONS ******************************************
+let val = 3;
+let negVal = -val
+
+console.log(2**3)
+console.log(5/3)
+
+let str1 = "hello"
+let str2 = " Ayush!"
+let str3 = str1+str2
+console.log(str3);
+
+// https://tc39.es/ecma262/#sec-toprimitive
+console.log(1 + "2");
+console.log("1" + 2 + 2); // 122 if string first, then all string
+console.log(1 + 2 + "2"); // 32
+
+console.log(+true);
+console.log(+"");
+
