@@ -12,7 +12,7 @@ const other = 34.33468;
 // These are giving strings
 console.log(other.toFixed(3));
 console.log(other.toPrecision(6));
-console.log(typeof other.toFixed(2));
+console.log(typeof other.toFixed(2)); // toFixed and toPrecision both give string values
 
 const other1 = 12374.37694
 console.log(other1.toPrecision(3));
@@ -23,6 +23,7 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 // Lots of values like this
 console.log(Number.MAX_VALUE);
+console.log(score.MAX_VALUE);
 console.log(Number.MAX_SAFE_INTEGER);
 console.log(Number.EPSILON);
 

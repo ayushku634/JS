@@ -15,7 +15,7 @@ console.log(null >= 0); // true (wtf? but here is an issue of conversion in >=)
 
 console.log(undefined == 0);
 console.log(undefined < 0);
-console.log(undefined > 0); // all give false values as undefined is clear
+console.log(undefined > 0); // all give false values as undefined is unclear
 
 console.log("\n");
 console.log("2" == 2)

@@ -49,9 +49,12 @@ console.log(str3);
 
 // https://tc39.es/ecma262/#sec-toprimitive
 console.log(1 + "2");
+console.log(1 + "2" + 3 + 4 + "5");
 console.log("1" + 2 + 2); // 122 if string first, then all string
 console.log(1 + 2 + "2"); // 32
+console.log(1 + 2 + "2" + 4);
+console.log(1 + 2 + "2" + 4 + 5);
 
-console.log(+true);
+console.log(-true);
 console.log(+"");
-
+console.log(-"");
