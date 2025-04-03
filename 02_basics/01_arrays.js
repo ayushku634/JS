@@ -1,6 +1,6 @@
 // This is how an array can be declared, Square Brackets, keep in mind, multiple data types allowed
 const myArr = [0, 1, 2, 3, 4, 5, true, "Ayush"]
-// Arrays in JS are resizable
+// Arrays in JS are resizable, 0-based indexing
 const arr = [0,1,2,3,4,5]
 
 // Copying arrays makes Shallow Copy (same reference), other is Deep Copy (Not same)
@@ -31,6 +31,7 @@ console.log(typeof newArr);
 
 const newArr1 = myArr.join(" && ")
 console.log(newArr1);
+
 
 // slice, splice
 console.log("A ", myArr);

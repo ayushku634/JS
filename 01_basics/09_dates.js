@@ -1,4 +1,5 @@
 // Starts from January 1, 1970 and calculated in milliseconds
+// Temporal karr k ek 'Math' jaisa bann jaega jisse directly karr skte use
 
 let myDate = new Date()
 // Date is an object
@@ -8,7 +9,7 @@ console.log(myDate.toString());
 console.log(myDate.getDay());
 console.log(myDate.toDateString());
 console.log(myDate.toISOString());
-console.log(typeof myDate);
+console.log(typeof myDate); // object
 console.log(myDate.toJSON());
 console.log(myDate.toLocaleDateString());
 console.log(myDate.toLocaleString());
@@ -40,12 +41,12 @@ console.log(Math.floor(Date.now()/1000));
 
 let newDate = new Date()
 // Month 0 indexed
-console.log(newDate.getMonth()+1);
+console.log(newDate.getMonth() + 1);
 console.log(newDate.getDay());
 
 // I couldn't understand this 
 // I couldn't understand this 
 // I couldn't understand this 
 newDate.toLocaleString('default', {
-    weekday : "long"
+    weekday : "long",
 })
