@@ -4,16 +4,6 @@ Welcome to my **JavaScript Learning Repository**! 🎯 This repo contains my jou
 
 ---
 
-## 📌 Table of Contents
-- [📖 About](#-about)
-- [📚 Topics Covered](#-topics-covered)
-- [📝 Code Organization](#-code-organization)
-- [📄 Useful Resources](#-useful-resources)
-- [💡 How to Contribute](#-how-to-contribute)
-- [📬 Contact](#-contact)
-
----
-
 ## 📖 About
 This repository is a collection of JavaScript concepts, notes, and practice exercises as I explore the language. It includes:
 - Core JavaScript fundamentals 🏗️
@@ -44,8 +34,7 @@ This repository is a collection of JavaScript concepts, notes, and practice exer
 ## 📄 Useful Resources
 - 📜 **ECMAScript Specification:** [ECMA-262](https://tc39.es/ecma262/)
 - 📖 **MDN JavaScript Docs:** [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- 🎥 **JavaScript Tutorials:** [JavaScript.info](https://javascript.info/)
-- 🏆 **Challenges & Practice:** [LeetCode](https://leetcode.com/), [CodeWars](https://www.codewars.com/)
+- **Sandbox Projects:** [Link](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
 ---
 
@@ -53,9 +42,5 @@ This repository is a collection of JavaScript concepts, notes, and practice exer
 Feel free to explore, fork, and contribute! If you find useful resources or want to improve the documentation, open a pull request. 😊
 
 ---
-
-## 📬 Contact
-💻 **GitHub:** [YourUsername](https://github.com/YourUsername)  
-📧 **Email:** your.email@example.com  
 
 Happy Coding! 🚀🔥
