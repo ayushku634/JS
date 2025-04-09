@@ -9,11 +9,33 @@
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>DOM Learning</title> <!-- DOM Learning is in Text Node as each of the things are Node in Document, so title k andar Text Node h -->
+    <style>
+        .bg-black {
+            background-color: black;
+            color: white;
+        }
+        /* .heading {
+            font-size: 2em;
+            text-align: center;
+        } */
+    </style>
 </head>
-<body>
-    <div class="bg-black">
-        <h1 class="heading">DOM Learning on Chai aur Code</h1> <!-- Isme bhi text node h -->
-        <p>Lorem ipsum dolor sit amet.</p> <!-- Isme bhi text node h -->
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM Learning on Chai aur Code <span style="display: none;">Test Text</span></h1> <!-- Isme bhi text node h -->
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+        <h2>Lorem, ipsum dolor.</h2>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae cum fuga excepturi rem fugiat eum.
+        </p> <!-- Isme bhi text node h -->
+
+        <ul>
+            <li class="list-item">Item 1</li>
+            <li class="list-item">Item 2</li>
+            <li class="list-item">Item 3</li>
+            <li class="list-item">Item 4</li> 
+        </ul>
     </div>
 </body>
 </html>
